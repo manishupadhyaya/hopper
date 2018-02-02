@@ -1,0 +1,121 @@
+    .wholeContainer{
+    display: flex;
+    height: 100vh  
+    }
+    .container1 {
+        flex: 3;
+        display: flex;
+        background-color: #eaeaea;
+        border-right: solid #0f67bc;
+        border-right-width: 1vh;
+        height:230vh;
+    }
+    .img1 {
+        height: 13vh;
+        flex: 1
+    }
+    .container2 {
+        flex: 2;
+        display: flex;
+        flex-direction: column
+    }
+    .deals {
+        color: black;
+        font-weight: bolder;
+        font-size: 3vh;
+        flex: 1;
+        margin-top: 4vh;
+        font-family: 'Poiret One', cursive;
+        text-align: center;
+        letter-spacing: 0.2vw;
+        
+    }
+    .searchProducts {
+        margin-top: 4vh;
+        margin-left: 3vh;
+        font-size: 2.5vh 2.5vw;
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+    }
+    .searchInput {
+        background-color: #eaeaea;
+        height: 4vh;
+        border: none;
+        width: 48vw;
+        margin-top: 4vh;
+        margin-left: 3vh;
+        font-size: 2.5vh;
+        font-weight: bold;
+        font-family: 'Poiret One', cursive;
+    }
+    .searchInputButton {
+        background-color: #fff;
+        border: 0.3vh solid #89c4ff;
+        height: 7vh;
+        border-radius: 50%;
+        width: 3.5vw;
+        margin-top: 2.5vh;
+        z-index: 1;
+        margin-left: -10px
+    }
+    .afterSearchButton {
+        background-color: #89c4ff;
+        height: 9.5vh;
+        border-radius: 50%;
+        width: 5vw;
+        margin-top: 1.3vh
+    }
+    .container2 {
+        flex:2.9;
+        display:flex;
+        flex-direction:column
+    }
+    .form {
+        display: flex;
+        flex-direction: row
+    }
+    .branch{
+        margin-left:3vh; 
+        color: black;
+        font-weight: bolder;
+        font-size: 3vh;
+        font-family: 'Poiret One', cursive;
+        margin-top: 5vh;
+        letter-spacing: 0.2vw;
+    }
+    .branchImg{
+        margin-left:3vh;
+        display: flex;
+        flex-direction:row;
+        margin-top:5vh;
+        width:70vw;
+        justify-content:space-between;
+    }
+    .image{
+        width:20vw;
+        padding-left:2vw
+    }
+    .img-deals{
+        padding-top:10%;
+        padding-left:3%;
+        padding-right:3%;
+    }
+    .products{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Poiret One', cursive;
+        letter-spacing: 0.2vw;
+    }
+    .bore{
+        margin-top: 5%;
+    }
+    .NavBar{
+        display:flex;
+        justify-content: space-between;
+    }
+    .city{
+        flex:1;
+    }
+    .toBeAdded{
+        flex:1;
+    }
